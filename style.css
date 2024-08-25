@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
+  font-family: "Aldrich", "Helvetica Neue", Helvetica, Arial;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -11,4 +15,35 @@ body {
   overflow: hidden;
   margin: 0;
   background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 4rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#counter {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.btnList {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.btn:active {
+  background-color: #1f1f1f;
+  color: #fff;
 }
